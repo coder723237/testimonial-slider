@@ -28,7 +28,7 @@ function updateTestimonial(){
   textEl.innerText = text;
   usernameEl.innerText = name;
   idx++;
-  if (idx === testimonials.lenght) {
+  if (idx === testimonials.length) {
    idx = 0;
   }
   setTimeout(() => {
